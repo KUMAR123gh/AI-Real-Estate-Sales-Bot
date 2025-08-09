@@ -1,0 +1,18 @@
+.hero {
+  background: url('images/your-land-image.jpg') center/cover no-repeat;
+  height: 80vh;
+  color: white;
+}
+
+.hero h1, 
+.hero p {
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+}
+
+.listing img {
+  transition: transform 0.3s ease;
+}
+
+.listing img:hover {
+  transform: scale(1.05);
+}
